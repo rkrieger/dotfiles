@@ -10,7 +10,7 @@ export PAGER=less
 export VISUAL=mg
 
 # Custom $PATH
-export PATH=${HOME}/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin
+export PATH=${HOME}/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 
 # Simple prompt
 export PS1='%n@%m:%~%# '
