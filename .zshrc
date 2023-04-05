@@ -62,7 +62,7 @@ knownrm() {
 
 pscreen() {
   local _date=$(date '+%Y%m%d-%H%M%S')
-  local _temp=$(mktemp /tmp/screenshot-${date}.XXXXX.png)
+  local _temp=$(mktemp /tmp/screenshot-${_date}.XXXXX.png)
   pngpaste ${_temp}
   6p ${_temp}
   rm -rf ${_temp}
