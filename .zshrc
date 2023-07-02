@@ -8,9 +8,11 @@
 export EDITOR=mg
 export PAGER=less
 export VISUAL=mg
+export LANG=en_US.UTF-8
+export LC_CTYPE=C
 
 # Custom $PATH
-export PATH=${HOME}/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
+export PATH=${HOME}/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 
 # Simple prompt
 export PS1='%n@%m:%~%# '
