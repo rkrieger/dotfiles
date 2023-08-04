@@ -5,9 +5,9 @@
 #
 
 # Preferred basic utilities
-export EDITOR=mg
+export VISUAL=emacs
+export EDITOR=vi
 export PAGER=less
-export VISUAL=mg
 export LANG=en_US.UTF-8
 export LC_CTYPE=C
 
