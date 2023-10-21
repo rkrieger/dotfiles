@@ -5,7 +5,7 @@
 #
 
 # Preferred basic utilities
-export VISUAL=emacs
+export VISUAL=vi
 export EDITOR=vi
 export PAGER=less
 export LANG=en_US.UTF-8
@@ -16,6 +16,7 @@ export PATH=${HOME}/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr
 
 # Simple prompt
 export PS1='%n@%m:%~%# '
+set -o emacs
 
 # Aliases (if present)
 if [ -f ~/.aliases ]
