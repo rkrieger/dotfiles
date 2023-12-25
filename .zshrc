@@ -13,6 +13,7 @@ export LC_CTYPE=C
 
 # Custom $PATH
 export PATH=${HOME}/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
+export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
 
 # Simple prompt
 export PS1='%n@%m:%~%# '
